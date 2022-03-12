@@ -1,0 +1,173 @@
+{
+  "nodes": {
+    "Molecular Function": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Side Effect": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Gene": {
+      "name": "<class 'str'>",
+      "description": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>",
+      "chromosome": "<class 'str'>"
+    },
+    "Biological Process": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Compound": {
+      "name": "<class 'str'>",
+      "license": "<class 'str'>",
+      "source": "<class 'str'>",
+      "inchikey": "<class 'str'>",
+      "inchi": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Pathway": {
+      "name": "<class 'str'>",
+      "license": "<class 'str'>",
+      "source": "<class 'str'>"
+    },
+    "Anatomy": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "bto_id": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>",
+      "mesh_id": "<class 'str'>"
+    },
+    "Cellular Component": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Symptom": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Disease": {
+      "name": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    },
+    "Pharmacologic Class": {
+      "name": "<class 'str'>",
+      "class_type": "<class 'str'>",
+      "source": "<class 'str'>",
+      "license": "<class 'str'>",
+      "url": "<class 'str'>"
+    }
+  },
+  "edges": {
+    "upregulates": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    },
+    "expresses": {
+      "direction": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "interacts": {
+      "direction": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "participates": {
+      "direction": "STRING",
+      "license": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    },
+    "downregulates": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    },
+    "causes": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "url": "STRING",
+      "unbiased": "STRING"
+    },
+    "binds": {
+      "direction": "STRING",
+      "pubmed_ids": "STRING",
+      "actions": "STRING",
+      "license": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "regulates": {
+      "direction": "STRING",
+      "subtypes": "STRING",
+      "source": "STRING",
+      "method": "STRING",
+      "unbiased": "STRING"
+    },
+    "associates": {
+      "direction": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "covaries": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    },
+    "localizes": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "resembles": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING",
+      "license": "STRING",
+      "similarity": "STRING"
+    },
+    "treats": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "includes": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "presents": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "palliates": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  }
+}

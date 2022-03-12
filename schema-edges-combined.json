@@ -1,0 +1,271 @@
+{
+  "Gene::Gene": {
+    "bioarx_hum_gen_hum_gen_Gene2Gene": {},
+    "bioarx_vir_gen_hum_gen_Gene2Gene": {},
+    "GNBR_activate_Gene2Gene": {},
+    "GNBR_production_by_cell_population_Gene2Gene": {},
+    "GNBR_regulate_Gene2Gene": {},
+    "GNBR_binding_Gene2Gene": {},
+    "GNBR_signaling_pathway_Gene2Gene": {},
+    "GNBR_increase_expression_production_Gene2Gene": {},
+    "GNBR_same_protein_or_complex_Gene2Gene": {},
+    "GNBR_enhance_response_Gene2Gene": {},
+    "GNBR_affect_expression_production_Gene2Gene": {},
+    "INTACT_physical_association_Gene2Gene": {},
+    "INTACT_association_Gene2Gene": {},
+    "INTACT_colocalization_Gene2Gene": {},
+    "INTACT_dephosphorylation_reaction_Gene2Gene": {},
+    "INTACT_cleavage_reaction_Gene2Gene": {},
+    "INTACT_direct_interaction_Gene2Gene": {},
+    "INTACT_phosphorylation_reaction_Gene2Gene": {},
+    "INTACT_adp_ribosylation_reaction_Gene2Gene": {},
+    "INTACT_ubiquitination_reaction_Gene2Gene": {},
+    "INTACT_protein_cleavage_Gene2Gene": {},
+    "STRING_reaction_Gene2Gene": {},
+    "STRING_catalysis_Gene2Gene": {},
+    "STRING_activate_Gene2Gene": {},
+    "STRING_inhibition_Gene2Gene": {},
+    "STRING_other_Gene2Gene": {},
+    "STRING_binding_Gene2Gene": {},
+    "STRING_post_translational_modification_Gene2Gene": {},
+    "STRING_expression_Gene2Gene": {},
+    "HETIONET_interacts_Gene2Gene": {
+      "direction": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_regulates_Gene2Gene": {
+      "direction": "STRING",
+      "subtypes": "STRING",
+      "source": "STRING",
+      "method": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_covaries_Gene2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Compound::Gene": {
+    "bioarx_drug_vir_gen_Compound2Gene": {},
+    "bioarx_drug_hum_gen_Compound2Gene": {},
+    "DRUGBANK_gene_target_Compound2Gene": {},
+    "DRUGBANK_enzyme_Compound2Gene": {},
+    "DRUGBANK_carrier_Compound2Gene": {},
+    "GNBR_affect_expression_production_Compound2Gene": {},
+    "GNBR_agonism_activation_Compound2Gene": {},
+    "GNBR_inhibit_Compound2Gene": {},
+    "GNBR_metabolism_pharmacokinetics_Compound2Gene": {},
+    "GNBR_antagonism_blocking_Compound2Gene": {},
+    "GNBR_increase_expression_production_Compound2Gene": {},
+    "GNBR_binding_Compound2Gene": {},
+    "GNBR_decrease_expression_production_Compound2Gene": {},
+    "GNBR_transport_channel_Compound2Gene": {},
+    "GNBR_enzyme_activity_Compound2Gene": {},
+    "INTACT_physical_association_Compound2Gene": {},
+    "INTACT_direct_interaction_Compound2Gene": {},
+    "INTACT_association_Compound2Gene": {},
+    "HETIONET_upregulates_Compound2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "z_score": "FLOAT",
+      "method": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_binds_Compound2Gene": {
+      "direction": "STRING",
+      "pubmed_ids": "STRING",
+      "actions": "STRING",
+      "license": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING",
+      "affinity_nM": "FLOAT",
+      "urls": "STRING"
+    },
+    "HETIONET_downregulates_Compound2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "z_score": "FLOAT",
+      "method": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Disease::Gene": {
+    "bioarx_covid2_acc_host_gene_Disease2Gene": {},
+    "bioarx_coronavirus_ass_host_gene_Disease2Gene": {},
+    "HETIONET_associates_Disease2Gene": {
+      "direction": "STRING",
+      "license": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_upregulates_Disease2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "log2_fold_change": "FLOAT",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_downregulates_Disease2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "log2_fold_change": "FLOAT",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Compound": {
+    "DGIDB_inhibitor_Gene2Compound": {},
+    "DGIDB_antagonist_Gene2Compound": {},
+    "DGIDB_other_Gene2Compound": {},
+    "DGIDB_agonist_Gene2Compound": {},
+    "DGIDB_binder_Gene2Compound": {},
+    "DGIDB_modulator_Gene2Compound": {},
+    "DGIDB_blocker_Gene2Compound": {},
+    "DGIDB_channel_blocker_Gene2Compound": {},
+    "DGIDB_antibody_Gene2Compound": {},
+    "DGIDB_positive_allosteric_modulator_Gene2Compound": {},
+    "DGIDB_allosteric_modulator_Gene2Compound": {},
+    "DGIDB_activator_Gene2Compound": {},
+    "DGIDB_partial_agonist_Gene2Compound": {}
+  },
+  "Compound::Atc": { "DRUGBANK_belongs2ATC_Compound2Atc": {} },
+  "Compound::Compound": {
+    "DRUGBANK_ddi_interactor_Compound2Compound": {},
+    "HETIONET_resembles_Compound2Compound": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING",
+      "license": "STRING",
+      "similarity": "FLOAT"
+    }
+  },
+  "Compound::Disease": {
+    "DRUGBANK_treats_Compound2Disease": {},
+    "GNBR_treatment_Compound2Disease": {},
+    "GNBR_inhibit_cell_growth_Compound2Disease": {},
+    "GNBR_sideEffect_adverseEvent_Compound2Disease": {},
+    "GNBR_alleviate_reduce_Compound2Disease": {},
+    "GNBR_disease_progress_biomarker_Compound2Disease": {},
+    "GNBR_prevent_suppress_Compound2Disease": {},
+    "GNBR_role_in_pathogenesis_Compound2Disease": {},
+    "HETIONET_treats_Compound2Disease": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_palliates_Compound2Disease": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Disease": {
+    "GNBR_improper_regulation_Gene2Disease": {},
+    "GNBR_causal_mutation_Gene2Disease": {},
+    "GNBR_polymorphisms_alter_risk_Gene2Disease": {},
+    "GNBR_role_in_pathogenesis_Gene2Disease": {},
+    "GNBR_possible_therapeutic_effect_Gene2Disease": {},
+    "GNBR_diognostic_biomarker_Gene2Disease": {},
+    "GNBR_promote_progression_Gene2Disease": {},
+    "GNBR_drug_targets_Gene2Disease": {},
+    "GNBR_overexpression_Gene2Disease": {},
+    "GNBR_mutations_affecting_disease_course_Gene2Disease": {}
+  },
+  "Gene::Tax": { "GNBR_in_tax_Gene2Tax": {} },
+  "Anatomy::Gene": {
+    "HETIONET_upregulates_Anatomy2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    },
+    "HETIONET_expresses_Anatomy2Gene": {
+      "direction": "STRING",
+      "sources": "STRING",
+      "unbiased": "STRING",
+      "license": "STRING"
+    },
+    "HETIONET_downregulates_Anatomy2Gene": {
+      "direction": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Pathway": {
+    "HETIONET_participates_Gene2Pathway": {
+      "direction": "STRING",
+      "license": "STRING",
+      "source": "STRING",
+      "unbiased": "STRING",
+      "url": "STRING"
+    }
+  },
+  "Compound::Side_Effect": {
+    "HETIONET_causes_Compound2Side_Effect": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "url": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Molecular_Function": {
+    "HETIONET_participates_Gene2Molecular_Function": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Biological_Process": {
+    "HETIONET_participates_Gene2Biological_Process": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Gene::Cellular_Component": {
+    "HETIONET_participates_Gene2Cellular_Component": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Disease::Anatomy": {
+    "HETIONET_localizes_Disease2Anatomy": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Pharmacologic_Class::Compound": {
+    "HETIONET_includes_Pharmacologic_Class2Compound": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Disease::Symptom": {
+    "HETIONET_presents_Disease2Symptom": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  },
+  "Disease::Disease": {
+    "HETIONET_resembles_Disease2Disease": {
+      "direction": "STRING",
+      "source": "STRING",
+      "license": "STRING",
+      "unbiased": "STRING"
+    }
+  }
+}
