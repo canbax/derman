@@ -90,32 +90,138 @@
       "method": "STRING",
       "unbiased": "BOOL"
     },
-    "DGIDB_inhibitor_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_agonist_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_modulator_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_allosteric_modulator_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_blocker_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_antagonist_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_positive_modulator_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_antibody_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_activator_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_inverse_agonist_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_partial_agonist_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_agonist_antagonist_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_vaccine_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_negative_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_inhibitor_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_agonist_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_allosteric_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_blocker_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_antagonist_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_positive_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_antibody_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_activator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_inverse_agonist_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_partial_agonist_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_agonist_antagonist_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_vaccine_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_negative_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
     "DGIDB_antagonist_allosteric_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
       "PMIDs": "STRING"
     },
-    "DGIDB_inducer_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_antisense_oligonucleotide_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_agonist_allosteric_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_inducer_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_antisense_oligonucleotide_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_agonist_allosteric_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
     "DGIDB_inhibitory_allosteric_modulator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
       "PMIDs": "STRING"
     },
-    "DGIDB_suppressor_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_blocker_activator_Compound2Gene": { "PMIDs": "STRING" },
-    "DGIDB_blocker_inhibitor_Compound2Gene": { "PMIDs": "STRING" }
+    "DGIDB_suppressor_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_blocker_activator_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    },
+    "DGIDB_blocker_inhibitor_Compound2Gene": {
+      "interaction_claim_source": "STRING",
+      "interaction_types": "STRING",
+      "interaction_group_score": "FLOAT",
+      "PMIDs": "STRING"
+    }
   },
   "Disease::Gene": {
     "bioarx_covid2_acc_host_gene_Disease2Gene": {},
