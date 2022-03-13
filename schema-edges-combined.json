@@ -32,19 +32,19 @@
     "HETIONET_interacts_Gene2Gene": {
       "direction": "STRING",
       "sources": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_regulates_Gene2Gene": {
       "direction": "STRING",
       "subtypes": "STRING",
       "source": "STRING",
       "method": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_covaries_Gene2Gene": {
       "direction": "STRING",
       "source": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Compound::Gene": {
@@ -71,7 +71,7 @@
       "source": "STRING",
       "z_score": "FLOAT",
       "method": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_binds_Compound2Gene": {
       "direction": "STRING",
@@ -79,7 +79,7 @@
       "actions": "STRING",
       "license": "STRING",
       "sources": "STRING",
-      "unbiased": "STRING",
+      "unbiased": "BOOL",
       "affinity_nM": "FLOAT",
       "urls": "STRING"
     },
@@ -88,8 +88,34 @@
       "source": "STRING",
       "z_score": "FLOAT",
       "method": "STRING",
-      "unbiased": "STRING"
-    }
+      "unbiased": "BOOL"
+    },
+    "DGIDB_inhibitor_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_agonist_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_allosteric_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_blocker_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_antagonist_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_positive_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_antibody_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_activator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_inverse_agonist_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_partial_agonist_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_agonist_antagonist_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_vaccine_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_negative_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_antagonist_allosteric_modulator_Compound2Gene": {
+      "PMIDs": "STRING"
+    },
+    "DGIDB_inducer_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_antisense_oligonucleotide_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_agonist_allosteric_modulator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_inhibitory_allosteric_modulator_Compound2Gene": {
+      "PMIDs": "STRING"
+    },
+    "DGIDB_suppressor_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_blocker_activator_Compound2Gene": { "PMIDs": "STRING" },
+    "DGIDB_blocker_inhibitor_Compound2Gene": { "PMIDs": "STRING" }
   },
   "Disease::Gene": {
     "bioarx_covid2_acc_host_gene_Disease2Gene": {},
@@ -98,37 +124,22 @@
       "direction": "STRING",
       "license": "STRING",
       "sources": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_upregulates_Disease2Gene": {
       "direction": "STRING",
       "source": "STRING",
       "log2_fold_change": "FLOAT",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_downregulates_Disease2Gene": {
       "direction": "STRING",
       "source": "STRING",
       "log2_fold_change": "FLOAT",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
-  },
-  "Gene::Compound": {
-    "DGIDB_inhibitor_Gene2Compound": {},
-    "DGIDB_antagonist_Gene2Compound": {},
-    "DGIDB_other_Gene2Compound": {},
-    "DGIDB_agonist_Gene2Compound": {},
-    "DGIDB_binder_Gene2Compound": {},
-    "DGIDB_modulator_Gene2Compound": {},
-    "DGIDB_blocker_Gene2Compound": {},
-    "DGIDB_channel_blocker_Gene2Compound": {},
-    "DGIDB_antibody_Gene2Compound": {},
-    "DGIDB_positive_allosteric_modulator_Gene2Compound": {},
-    "DGIDB_allosteric_modulator_Gene2Compound": {},
-    "DGIDB_activator_Gene2Compound": {},
-    "DGIDB_partial_agonist_Gene2Compound": {}
   },
   "Compound::Atc": { "DRUGBANK_belongs2ATC_Compound2Atc": {} },
   "Compound::Compound": {
@@ -136,7 +147,7 @@
     "HETIONET_resembles_Compound2Compound": {
       "direction": "STRING",
       "source": "STRING",
-      "unbiased": "STRING",
+      "unbiased": "BOOL",
       "license": "STRING",
       "similarity": "FLOAT"
     }
@@ -154,13 +165,13 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_palliates_Compound2Disease": {
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Gene::Disease": {
@@ -180,18 +191,18 @@
     "HETIONET_upregulates_Anatomy2Gene": {
       "direction": "STRING",
       "source": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     },
     "HETIONET_expresses_Anatomy2Gene": {
       "direction": "STRING",
       "sources": "STRING",
-      "unbiased": "STRING",
+      "unbiased": "BOOL",
       "license": "STRING"
     },
     "HETIONET_downregulates_Anatomy2Gene": {
       "direction": "STRING",
       "source": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Gene::Pathway": {
@@ -199,7 +210,7 @@
       "direction": "STRING",
       "license": "STRING",
       "source": "STRING",
-      "unbiased": "STRING",
+      "unbiased": "BOOL",
       "url": "STRING"
     }
   },
@@ -209,7 +220,7 @@
       "source": "STRING",
       "license": "STRING",
       "url": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Gene::Molecular_Function": {
@@ -217,7 +228,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Gene::Biological_Process": {
@@ -225,7 +236,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Gene::Cellular_Component": {
@@ -233,7 +244,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Disease::Anatomy": {
@@ -241,7 +252,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Pharmacologic_Class::Compound": {
@@ -249,7 +260,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Disease::Symptom": {
@@ -257,7 +268,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   },
   "Disease::Disease": {
@@ -265,7 +276,7 @@
       "direction": "STRING",
       "source": "STRING",
       "license": "STRING",
-      "unbiased": "STRING"
+      "unbiased": "BOOL"
     }
   }
 }

@@ -1,0 +1,81 @@
+{
+  "Gene": {
+    "name": "STRING",
+    "description": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING",
+    "chromosome": "STRING",
+    "claim_name": "STRING"
+  },
+  "Compound": {
+    "name": "STRING",
+    "license": "STRING",
+    "source": "STRING",
+    "inchikey": "STRING",
+    "inchi": "STRING",
+    "url": "STRING",
+    "drug_claim_name": "STRING",
+    "drug_claim_primary_name": "STRING",
+    "drug_name": "STRING"
+  },
+  "Disease": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Atc": {},
+  "Tax": {},
+  "Molecular_Function": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Side_Effect": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Biological_Process": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Pathway": {
+    "name": "STRING",
+    "license": "STRING",
+    "source": "STRING",
+    "url": "STRING"
+  },
+  "Anatomy": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING",
+    "mesh_id": "STRING",
+    "bto_id": "STRING"
+  },
+  "Cellular_Component": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Symptom": {
+    "name": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  },
+  "Pharmacologic_Class": {
+    "name": "STRING",
+    "class_type": "STRING",
+    "source": "STRING",
+    "license": "STRING",
+    "url": "STRING"
+  }
+}
